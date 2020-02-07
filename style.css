@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: var(--Black-color);
+    background-color: var(--White-color);
 }
 
 
@@ -9,5 +9,12 @@ html, body {
     background: url("./assets/icon/Logo.svg") no-repeat;
     height: 76px;
     width: 1920px;
-    margin-top: 40px;
+    margin-top:40px;
+}
+
+
+.section {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--Blue-color);
 }
