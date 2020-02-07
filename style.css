@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--Black-color);
+}
+
+
+.header {
+    background: url("./assets/icon/Logo.svg") no-repeat;
+    height: 76px;
+    width: 1920px;
+    margin-top: 40px;
+}
