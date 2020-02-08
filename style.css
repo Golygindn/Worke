@@ -1,20 +1,90 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: var(--White-color);
+    background-color: var(--Blue-color);
 }
 
 
 .header {
-    background: url("./assets/icon/Logo.svg") no-repeat;
+    background: url("./assets/icon/Logo.svg");
     height: 76px;
     width: 1920px;
-    margin-top:40px;
+    margin-top: 40px;
 }
 
 
-.section {
+.menu {
+    display: flex;
+    justify-content: center;
+    color: var(--White-color)
+}
+
+.menu_item_active {
+    font-size: var(--Font-size-2);
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: Montserrat-Medium, serif;
+}
+
+.menu_item {
+    font-size: var(--Font-size-2);
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: Montserrat-Regular, serif;
+}
+
+
+.wrapper {
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    height: 838px;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.textandbutton {
+    margin-left: 240px;
+    margin-top: 260px;
+}
+
+.text {
+    width: 531px;
+    color: var(--White-color);
+    font-size: 48px;
+    font-family: Montserrat-Bold, serif;
+}
+
+.text_1 {
+    margin-top: 140px;
+    width: 1440px;
+    color: var(--Black-color);
+    font-family: Montserrat-Bold, serif;
+}
+
+button {
+    margin-top: 40px;
+    width: 216px;
+    height: 57px;
+    background: var(--White-color);
+    border-radius: var(--Border-radius);
+    border: none;
+    font-family: Montserrat-Bold, serif;
+    font-size: var(--Font-size-button);
+    color: var(--Blue-color);
+}
+
+.iPhone {
+    background: url("./assets/img/iPhone1.png") no-repeat;
+    width: 652px;
+    height: 1195px;
+}
+
+.section_two {
+    margin-top: -48px;
     width: 100vw;
-    height: 100vh;
-    background-color: var(--Blue-color);
+    height: 1654px;
+    background: var(--White-color);
 }

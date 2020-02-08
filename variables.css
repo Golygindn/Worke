@@ -10,9 +10,10 @@
     --Border-radius: 100px;
 
     /*Font*/
-
+    --Font-size-3: 3.125rem;
     --Font-size-2: 1.5rem;
     --Font-size: 1.2rem;
+    --Font-size-button: 1rem;
     --Font-size-text: 0.9rem;
     --Font-size-mobile: 0.8rem;
     --Font-color: #1A1A1A;
@@ -21,4 +22,20 @@
 
     --Box-shadow: 0 0 5px 0 rgba(0,0,0,0.10);
 
+}
+
+
+h1 {
+    font-size: 72px;
+    font-family: Montserrat-Bold, serif;
+}
+
+p{
+    font-size: 22px;
+    font-family: Montserrat-Medium, serif;
+}
+
+h2 {
+    font-size: 34px;
+    font-family: Montserrat-Bold, serif;
 }
