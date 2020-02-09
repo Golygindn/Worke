@@ -58,10 +58,20 @@ html, body {
 }
 
 .text_1 {
-    margin-top: 140px;
+    margin-top: 70px;
     width: 1440px;
     color: var(--Black-color);
     font-family: Montserrat-Bold, serif;
+    margin-left: 150px;
+}
+
+.text_2 {
+    display: block;
+    margin-top: 50px;
+    width: 712px;
+    color: var(--Black-color);
+    font-family: Montserrat-Bold, serif;
+    margin-left: 150px;
 }
 
 button {
@@ -76,15 +86,187 @@ button {
     color: var(--Blue-color);
 }
 
+button:hover{
+    border: 2px solid var(--White-color);
+    background-color: var(--Blue-color);
+    color: var(--White-color)
+}
+
+.button_new {
+    margin-top: 40px;
+    width: 216px;
+    height: 57px;
+    background: var(--Blue-color);
+    border-radius: var(--Border-radius);
+    border: none;
+    font-family: Montserrat-Bold, serif;
+    font-size: var(--Font-size-button);
+    color: var(--White-color);
+}
+
+.button_new:hover{
+    border: 2px solid var(--Blue-color);
+    background-color: var(--White-color);
+    color: var(--Black-color)
+}
+
+
 .iPhone {
     background: url("./assets/img/iPhone1.png") no-repeat;
     width: 652px;
     height: 1195px;
 }
 
-.section_two {
-    margin-top: -48px;
+.Main_Section {
+    padding:90px;
     width: 100vw;
     height: 1654px;
     background: var(--White-color);
+}
+
+
+.section{
+    flex-direction: row;
+    display: flex;
+    height: 417px;
+    width: 100%;
+}
+
+.Hairdresser{
+    background: url("./assets/img/Hairdresser.png") no-repeat;
+    background-size: cover;
+    width: 440px;
+    height: 417px;
+    margin-left: 152px;
+}
+
+
+.section_two{
+    margin-top: 70px;
+    flex-direction: row;
+    display: flex;
+    height: 417px;
+    width: 100%;
+}
+
+
+.office_man{
+    background: url("./assets/img/Office_man.png") no-repeat;
+    background-size: cover;
+    width: 440px;
+    height: 420px;
+    margin-left: 255px;
+
+}
+
+.Headline{
+    margin-top: 120px;
+    margin-left: 150px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 225px;
+    background: var(--Blue-color);
+}
+
+.footer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 88px;
+}
+
+.WorkeDo{
+    font-family: Montserrat-Regular, serif;
+    font-size: var(--Font-size-text);
+    color: var(--White-color);
+}
+
+.instagram{
+
+    background: url("./assets/icon/Instagram_logo.svg") no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+.inst{
+    margin-top: 10px;
+    display: flex;
+}
+
+.name{
+    margin-top: 1px;
+    font-family: Montserrat-Regular, serif;
+    font-size: var(--Font-size);
+    color: var(--White-color)
+}
+.worke{
+    display: block;
+}
+
+.menu_footer{
+    display: flex;
+}
+
+.first_column{
+
+    display: block;
+    color: var(--White-color);
+}
+
+.second_column{
+    margin-left: 100px;
+    display: block;
+
+}
+
+.menu_item_footer{
+    font-family: Montserrat-Regular, serif;
+    font-size: var(--Font-size);
+    margin-top: 10px;
+    color: var(--White-color);
+}
+.menu_first_item_footer{
+    font-family: Montserrat-Regular, serif;
+    font-size: var(--Font-size);
+    color: var(--White-color);
+}
+
+.store{
+    display: block;
+}
+
+.stor{
+    display: flex;
+}
+
+.app_store{
+    margin-top: 15px;
+    background: url("./assets/icon/App_Store.svg") no-repeat;
+    width: 130px;
+    height: 42px;
+}
+
+.google_store{
+    margin-left: 20px;
+    margin-top: 15px;
+    background: url("./assets/icon/Google_Play.svg") no-repeat;
+    width: 143px;
+    height: 42px;
+}
+
+.button_footer{
+    margin-top: 0;
+    width: 216px;
+    height: 57px;
+    background: var(--White-color);
+    border-radius: var(--Border-radius);
+    border: none;
+    font-family: Montserrat-Bold, serif;
+    font-size: var(--Font-size-button);
+    color: var(--Blue-color);
 }
